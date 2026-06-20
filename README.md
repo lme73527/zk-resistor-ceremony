@@ -2,7 +2,7 @@
 
 Multi-party setup for the two BLS12-381 Groth16 circuits used by [ZKResistor](https://github.com/TONresistor/zk-resistor-contracts). Anyone is welcome to contribute.
 
-> **Phase 1 closes 2026-06-20 16:00 UTC.** Contribute before then to be included in it.
+> **Phase 2 closes 2026-07-07 16:00 UTC.** Contribute before then to be included in it.
 
 ## Why
 
@@ -25,8 +25,8 @@ Fork, run one script in Docker, open a PR. `scripts/contribute.sh` contributes t
 
 Each phase closes with a future Drand round applied as the final mixing step. The round is posted here before it happens, so its value is unpredictable to everyone, including the coordinator, at commit time.
 
-- **Phase 1** closes at Drand round **6218006** (League of Entropy mainnet), **2026-06-20 16:00 UTC**.
-- **Phase 2**: announced here before it closes.
+- **Phase 1**: closed at Drand round **6218006**, 2026-06-20 16:00 UTC.
+- **Phase 2** closes at Drand round **6266966** (League of Entropy mainnet), **2026-07-07 16:00 UTC**.
 
 ## License
 
