@@ -19,6 +19,23 @@ if ! [[ "$NAME" =~ ^[a-zA-Z0-9_-]{1,32}$ ]]; then
     exit 2
 fi
 
+# A handle's attestation lives at contributors/<NAME>.attestation.md. If this
+# handle already contributed (e.g. in phase 1), reusing it would overwrite that
+# earlier attestation, so derive a fresh handle: renovatio -> renovatio-p2.
+if [ -e "contributors/${NAME}.attestation.md" ]; then
+    BASE="$NAME"
+    n=2
+    while [ -e "contributors/${BASE}-p${n}.attestation.md" ]; do
+        n=$((n + 1))
+    done
+    NAME="${BASE}-p${n}"
+    if [ "${#NAME}" -gt 32 ]; then
+        echo "Handle '$BASE' is taken and the derived '$NAME' is over 32 chars; use a shorter handle." >&2
+        exit 2
+    fi
+    echo "Handle '$BASE' already used; contributing as '$NAME'."
+fi
+
 STAGE=$(ceremony_stage)
 DATE_ISO=$(date -u +"%Y-%m-%dT%H:%M:%SZ")
 COMMIT_SHA=$(git rev-parse HEAD 2>/dev/null || echo uncommitted)
