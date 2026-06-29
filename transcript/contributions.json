@@ -339,6 +339,18 @@
       "withdraw_zkey_hash": "sha256:49eab014a9cd9659aba65e9d015925650714d353ac299ef43198258a175faf83",
       "attestation": "contributors/mnemotiv-p2.attestation.md",
       "repo_commit": "66bcaa12f2b7487890a7f32a80d87f6fc6d087bd"
+    },
+    {
+      "stage": "phase2",
+      "slot": 7,
+      "name": "inozemtsev-roman-p2",
+      "timestamp": "2026-06-29T08:38:14Z",
+      "insert_zkey": "phase2/insert_0007_inozemtsev-roman-p2.zkey",
+      "withdraw_zkey": "phase2/withdraw_0007_inozemtsev-roman-p2.zkey",
+      "insert_zkey_hash": "sha256:38920b969c06cdf27df316f5621e15de6834afbc107e1ac1add4e47289ff016e",
+      "withdraw_zkey_hash": "sha256:69c8c29540efe8876b3499c5e8315395da23879844dcdedbd23bd6c9ff5cbeb7",
+      "attestation": "contributors/inozemtsev-roman-p2.attestation.md",
+      "repo_commit": "c9cfaabec1ca2cd4ed0775d821d8442e3584e6b4"
     }
   ]
 }
