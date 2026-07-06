@@ -375,6 +375,18 @@
       "withdraw_zkey_hash": "sha256:24028e9640ca24b975b62ace4f14023bcee928a7902474beb141e2278b4dcdf8",
       "attestation": "contributors/whicencer-p2.attestation.md",
       "repo_commit": "36eb8c25aab73b2f397db2b96fa623415623460d"
+    },
+    {
+      "stage": "phase2",
+      "slot": 10,
+      "name": "lme73527-p2",
+      "timestamp": "2026-07-06T19:33:37Z",
+      "insert_zkey": "phase2/insert_0010_lme73527-p2.zkey",
+      "withdraw_zkey": "phase2/withdraw_0010_lme73527-p2.zkey",
+      "insert_zkey_hash": "sha256:8d93134d9efee4d92e73929391d163a0093420d41624d8a75e4607683c0ccfe2",
+      "withdraw_zkey_hash": "sha256:928b93daacb11d5b3e4e77c2695d2f346a34a3aa3e241c15892bd63539a371ae",
+      "attestation": "contributors/lme73527-p2.attestation.md",
+      "repo_commit": "999c1cedd5cd6eed5c6e71e367ab4790e2d9d813"
     }
   ]
 }
