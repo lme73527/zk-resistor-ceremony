@@ -411,6 +411,19 @@
       "withdraw_zkey_hash": "sha256:cb7590b0fbfcee3a790a92fb9b8199dfde8c4401ea7a0d7bef588ed48b92b64d",
       "attestation": "contributors/waitmyhomie-p2.attestation.md",
       "repo_commit": "bfdb36864c001c8144def9b79fcd6138b8ae9769"
+    },
+    {
+      "stage": "phase2",
+      "slot": 13,
+      "name": "drand-beacon",
+      "timestamp": "2026-07-07T16:08:27Z",
+      "insert_zkey": "phase2/insert_0013_drand-beacon.zkey",
+      "withdraw_zkey": "phase2/withdraw_0013_drand-beacon.zkey",
+      "insert_zkey_hash": "sha256:5ef0a354249e224dc52d72bd332391503d0a63878fb6b1485ca729e040ae59ef",
+      "withdraw_zkey_hash": "sha256:60b22adfc56e3c8268484213ea34cb29492645decc41bd0d5632762de39949ff",
+      "attestation": null,
+      "drand_round": 6266966,
+      "drand_randomness": "fc41719c76c2099305c7307de98a220aaf33e4d865377dc66d03e8a925b79ce5"
     }
   ]
 }
